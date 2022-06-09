@@ -1,4 +1,4 @@
 # UI-UX_Project_for_Restaurant
 
-## Wireframes
+## Wireframe
 <img src="Divine-Eats.png" width=600>
