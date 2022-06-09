@@ -1,4 +1,4 @@
-# UI-UX_Project_for_Restaurant
+# DivineEats
 ### Online restaurant that allows users to view what the restaurant offers
 
 ## Wireframe
