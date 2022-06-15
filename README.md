@@ -2,4 +2,4 @@
 ### Online restaurant that allows users to view what the restaurant offers
 
 ## Wireframe
-<img src="Divine-Eats.png" width=620>
+<img src="DivineEats.png" width=620>
