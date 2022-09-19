@@ -1,0 +1,123 @@
+.app__specialMenu {
+    flex-direction: column;
+    background: var(--color-black);
+}
+
+.app__specialMenu-title {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: 'Irish Grover';
+    font-size: 60px;
+    color: #F3E7D7;
+}
+
+.app__specialMenu-menu {
+    width: 100%;
+
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.app__specialMenu-menu_headings {
+    font-family: 'Irish Grover';
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.04em;
+}
+.app__specialMenu-menu_heading {
+    font-family: 'Irish Grover';
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.04em;
+    position: relative;
+    right: -1px;
+}
+
+.app__specialMenu-menu_drink, .app__specialMenu-menu_dessert {  
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
+
+.app__specialMenu-menu_img {
+    width: 650px;
+    margin: 0 1rem;
+}
+
+
+.app__specialMenu-menu_img img {
+    width: 950px;
+    height: 650px;
+    position: relative;
+    left: -100px;
+}
+
+.app__custom-button {
+    background-color: #F3E7D7;
+    font-family: 'Irish Grover';
+    height: 10%;
+    padding: 10px 30px;
+    position: relative;
+    left: -770px;
+    bottom: -120px;
+}
+
+.app__specialMenu_menu_items {
+    display: flex;
+    flex-direction: column;
+
+    margin: 2rem 0;
+}
+
+.app__specialMenu-menu_drink {
+    position: relative;
+   left: -100px;
+}
+
+.app__specialMenu-menu_dessert {
+    position: relative;
+    right: -150px;
+}
+
+@media screen and (max-width: 2000px) {
+    .app__specialMenu-menu_img {
+        width: 650px;
+    }
+
+
+}
+@media screen and (max-width: 1150px) {
+    .app__specialMenu-menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .app__specialMenu-menu_img {
+        margin: 3rem 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__specialMenu-menu_img {
+        width: 100%;
+    }
+
+    .app__specialMenu-title {
+        font-size: 35px;
+    }
+
+    .app__specialMenu-menu_heaading, .app__specialMenu-menu_headings {
+        font-size: 35px;
+        line-height: 48.5px;
+    }
+}
+
+
