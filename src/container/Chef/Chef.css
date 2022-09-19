@@ -1,0 +1,95 @@
+.app__chef {
+    background-color: var(--color-black);
+}
+
+
+.app__chef-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Cormorant Upright';
+    color: #F3E7D7;
+    font-size: 2em;
+
+}
+
+.app__p_irishgrover {
+    height: 9em;
+    margin-left: -2.5em;
+    margin-right: 3em;
+}
+
+.app__chef-content_quote {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+   
+}
+
+.app__chef-content_quote img {
+    width: 50px;
+    height: -10px;
+    margin: 0 2rem 2rem 0;
+    margin-bottom: 20rem;
+    margin-left: 5em;
+ 
+  
+}
+
+.app__chef-sign {
+    width: 100%;
+    margin-top: -3rem;
+    color: #F3E7D7;
+   
+}
+
+.app__chef-sign img {
+    margin-left: 9em;
+    
+
+}
+
+.app__p_opensans {
+    font-family: 'Cormorant Upright';
+    font-size: 2em;
+    margin-left: 5em;
+}
+
+.app__headtext_cormorant {
+    font-family: 'Irish Grover';
+    color: #F3E7D7;
+    font-size: 490%;
+    margin-left: 2em;
+}
+.app__wrapper-img img {
+    width: 130%;
+    margin-left: -4em;  
+}
+
+.app__chef-sign p:first-child {
+    font-family: 'Cormorant Upright';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--color-golden);
+    margin-left: 10rem;
+}
+
+.app__chef-sign img {
+    width: 250px;
+    margin-top: 3rem;
+}
+
+@media screen and (min-width: 2000px) {
+    .app__chef-sign img {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__chef-sign img {
+        width: 80%;
+}
+}
